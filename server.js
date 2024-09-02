@@ -1,32 +1,3 @@
-// const express = require('express')
-// const app = express();
-// // const xmlparser = require('express-xml-bodyparser');
-// const axios = require('axios');
-
-// let xmldata;
-// async function f() {
-//     await axios.get('https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms')
-//         .then(response => {
-//             // console.log(response.data);
-//             xmldata = response.data;
-//             // console.log(xmldata)
-//         })
-//         .catch(error => {
-//             console.error('Error fetching data:', error);
-//         });
-// }
-// f()
-
-
-
-
-
-// app.get('/data',(req,res)=>{
-//     console.log("here is the data");
-//     console.log(xmldata)
-//     res.send("this is running")
-// })
-
 const express = require('express');
 const app = express();
 const axios = require('axios');
